@@ -7,22 +7,22 @@ public class Mediarit {
     
         Scanner ler = new Scanner(System.in);
 
-        System.out.println("Por favor, insira trÃªs nÃºmeros:");
+        System.out.println("Por favor, insira três números:");
 
-        // LÃª 
+        // Lê
         double n1 = ler.nextDouble();
         double n2 = ler.nextDouble();
         double n3 = ler.nextDouble();
 
-        // MÃ©dia
+        // Média
         double maior = Math.max(n1, Math.max(n2, n3));
         double menor = Math.min(n1, Math.min(n2, n3));
         double media = (n1 + n2 + n3) / 3;
 
         // Imprime
-        System.out.println("A mÃ©dia dos nÃºmeros Ã©: " + media);
-        System.out.println("O maior nÃºmero Ã©: " + maior);
-        System.out.println("O menor nÃºmero Ã©: " + menor);
+        System.out.println("A média dos números é: " + media);
+        System.out.println("O maior número é: " + maior);
+        System.out.println("O menor número é: " + menor);
                 
         
     
